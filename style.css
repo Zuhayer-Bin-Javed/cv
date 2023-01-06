@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #F2E5E5;
+    
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #2B3A55;
+    padding: 7vh;
+    border: 2px #F2E5E5;
+    border-radius: 5vh;
+}
+.profile-pic{
+    width: 130px;
+    height: auto;
+    border: 3px #2B3A55;
+    border-radius: 30px;
+    float: left;
+    
+}
+.header-title{
+    float: left;
+    padding: 5.5vh;
+    color:aliceblue  
+}
+.header-title h1{
+    font-family: "Allura",cursive;
+    font-size: 40px;
+    
+}
+.header-title h3{
+    font-family:"Roboto",sans-serif;
+    font-size: 20px;
+}
+.header-contact{
+    float: right;
+    padding: 7vh;
+}
+.header-contact a{
+    text-decoration: none;
+    font-family:"Roboto",sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:#CE7777;
+    text-transform: uppercase;
+    font-family:"Roboto",sans-serif;
+}
+.div-clear{
+    clear: both;
+}
+.content{
+    color: aliceblue;
+    padding-top: 5vh;
+    font-family:"Roboto",sans-serif;
+}
+.left-div{
+    float: left;
+    font-size: 15px;
+}
+.right-div{
+    float: right;
+    font-size: 17px;
+}
+
+.card{
+    width: 28%;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: black 2px;
+    border-radius: 10%;
+    
+}
+.education-title{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.education,.achievement,.Personal-docs{
+    text-align: center;
+}
+.marksheet,.certificate{
+    background-color: #2B3A55;
+    border: #2B3A55 0px;
+    margin: 20px 10px;
+    width:90px;
+    height: 40px;
+    border-radius: 10%;
+    
+
+}
+.marksheet a,.certificate a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 5px;
+    
+
+}
+.marksheet a:hover,.certificate a:hover{
+    text-decoration: underline;
+    color:#CE7777;
+    font-size: 17px;
+    padding: 5px;
+    
+    
+
+}
