@@ -139,3 +139,7 @@ body{
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer a:hover{
+    text-decoration: underline;
+}
