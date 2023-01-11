@@ -16,8 +16,7 @@ body{
     margin: 0 auto;
     background-color: #2B3A55;
     padding: 7vh;
-    border: 2px #F2E5E5;
-    border-radius: 5vh;
+    text-align: center;
 }
 .profile-pic{
     width: 130px;
@@ -68,6 +67,7 @@ body{
 .left-div{
     float: left;
     font-size: 15px;
+    
 }
 .right-div{
     float: right;
@@ -75,7 +75,8 @@ body{
 }
 
 .card{
-    min-width: fit-content;
+    text-align: center;
+    min-width: 200px;
     width: 28%;
     display: inline-block;
     margin: 20px;
@@ -83,7 +84,7 @@ body{
     background-color: whitesmoke;
     color: black;
     border: black 2px;
-    border-radius: 10%;
+    border-radius: 10px;
     
 }
 .education-title{
@@ -102,7 +103,7 @@ body{
     margin: 20px 10px;
     width:100px;
     height: 40px;
-    border-radius: 10%;
+    border-radius: 10px;
     
 
 }
@@ -122,4 +123,19 @@ body{
     
     
 
+}
+.footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 3vh 7vh;
+    text-align: center;
+
+}
+.footer a{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
