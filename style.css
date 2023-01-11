@@ -143,3 +143,14 @@ body{
 .footer a:hover{
     text-decoration: underline;
 }
+@media (max-width: 630px){
+    .profile-pic{
+        float: none;
+    }
+    .header-contact{
+        float: none;
+        padding: 0;
+    }
+
+
+}
